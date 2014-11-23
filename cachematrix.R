@@ -1,6 +1,6 @@
 ## Calculate the inverse of a matrix, first check if it has been calculated already.
 
-## save the matrix and calculate the inverse.
+## makeCacheMatrix will save the matrix and calculate the inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## return a materix that is the inverse of 'x"
+## first check if it exist. If not, it will return a materix that is the inverse of 'x"
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
